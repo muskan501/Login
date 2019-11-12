@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Awesome!</title>
+    <link href='project1.css' rel='stylesheet'/>
+  </head>
+  <body>
+
+    <div class='header'>
+      <div class='logo'><a href="project.html"><img src='images/awesome-logo.svg'></a></div>
+      <ul class='menu'>
+             <li><a href='#'>About</a></li>          <!-- These are the same -->
+        <li><a href='#'>pricing</a></li>
+        <li><button><a href="project1.html" target="_blank">Sign Up</a></button></li>
+        <li><button><a href="project2.html" target="_blank">Login</a></button></li>
+      </ul>
+    
+    </div>
+    <script>
+      function f1()
+      {
+        var obj={
+          name:document.getElementById("muskan").value
+        };
+        alert("Name:"+obj.name);
+      }    </script>
+    <div>
+    <form>
+        <fieldset>
+        <br>
+        <br>
+        <br>
+        <input type="text" id="muskan" placeholder="Name"><br><br>
+        <input type="text" placeholder="Email"><br><br>
+        <input type="Password" placeholder="Password"><br><br>
+        <input type="button" value="sign Up" onclick="f1()">
+        <br>
+        <br>
+        
+    </fieldset>
+    </form>
+    </div>
+    
+
+  </body>
+</html>
